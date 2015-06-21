@@ -1,0 +1,44 @@
+sequence
+A: asdf()dafdsfdsaeeee,,
+choice
+	choice1
+		goto asdf
+	choice2
+		flag 第n章flag
+	choice3
+		flag 第n章flag
+	choice4
+		flag 第n章flag
+	choice5
+		goto bbb
+choice
+	choice1
+		goto n
+	choice2
+		flag 第n章flag
+	choice2
+		flag 第n章flag
+	choice2
+		flag 第n章flag
+	choice2
+		flag 第n章flag
+check flag1
+check flag1
+check flag3
+check flag2, 50
+title 充满光辉的人――
+if
+	true
+	A hello
+	B hello
+tag asdf
+tag ttt
+
+check flag2 50
+check flag2 50
+check flag2 50
+tag bbb
+
+check flag2 50
+check flag2 50
+check flag2 50

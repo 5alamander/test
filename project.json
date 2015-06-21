@@ -1,0 +1,34 @@
+{
+    "project_type": "javascript",
+
+    "debugMode" : 1,
+    "showFPS" : true,
+    "frameRate" : 60,
+    "id" : "gameCanvas",
+    "renderMode" : 0,
+    "engineDir":"frameworks/cocos2d-html5",
+
+    "modules" : ["cocos2d", "extensions"],
+
+    "jsList" : [
+      "src/resource.js",
+
+      "src/gameRuntimeData.js",
+      "src/gameElement/trigger.js",
+      "src/gameElement/pokemonCard.js",
+      "src/gameElement/vectorEffect.js",
+      "src/map/MapLayer.js",
+
+      "src/MyLoading.js",
+      "src/originData.js",
+      "src/gameData.js",
+
+      "src/TimerLayer.js",
+      "src/app.js",
+      "src/battleLayer.js",
+      "src/turnBase/battleLayer2.js",
+      "src/ui/welcomeLayer.js",
+      "src/ui/dialogLayer.js"
+
+    ]
+}
